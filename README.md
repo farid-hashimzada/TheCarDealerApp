@@ -18,7 +18,7 @@
 <br>
 <h2>Project Structure</h2>
 * pages/: Contains the main pages of the application.<br>
-   &nbsp; filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
+   &nbsp filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
    &nbsp; result/[makeId]/[model].tsx: Displays the results based on the user’s selections.<br>
    &nbsp; layout.tsx: Root layout with the Navbar and Footer.<br>
 * components/: Contains reusable components.
