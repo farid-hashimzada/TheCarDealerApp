@@ -18,13 +18,13 @@
 <br>
 <h2>Project Structure</h2>
 * pages/: Contains the main pages of the application.<br>
-    filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
-    result/[makeId]/[model].tsx: Displays the results based on the user’s selections.<br>
-    layout.tsx: Root layout with the Navbar and Footer.<br>
+   &nbsp; filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
+   &nbsp; result/[makeId]/[model].tsx: Displays the results based on the user’s selections.<br>
+   &nbsp; layout.tsx: Root layout with the Navbar and Footer.<br>
 * components/: Contains reusable components.
-    Dropdown.tsx: Dropdown component used for selecting vehicle make and model.<br>
-    Navbar.tsx: Navigation bar with links to different pages.<br>
-    Footer.tsx: Footer section with links and copyrights.<br>
+   &nbsp; Dropdown.tsx: Dropdown component used for selecting vehicle make and model.<br>
+   &nbsp; Navbar.tsx: Navigation bar with links to different pages.<br>
+   &nbsp; Footer.tsx: Footer section with links and copyrights.<br>
 <h2>Features</h2>
 * Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.<br>
 * Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.<br>
