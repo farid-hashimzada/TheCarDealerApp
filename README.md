@@ -1,33 +1,34 @@
 <h1>TheCarDealerApp</h1>
 
-This project is a Car Filter Application built with Next.js and React. The application allows users to filter vehicles by make, model, and type and view the filtered results on a separate page. Below is an overview of how the code is organized and how each part works.
+<h2>This project is a Car Filter Application built with Next.js and React. The application allows users to filter vehicles by make, model, and type and view the filtered results on a separate page. Below is an overview of how the code is organized and how each part works.</h2>
 
-Table of Contents
-Technologies Used
-Project Structure
-Features
-Getting Started
-Components Explanation
-Usage
-Technologies Used
-Next.js: Framework used for building the web application.
-React: JavaScript library used for building user interfaces.
-TypeScript: For type safety and improved code quality.
-Tailwind CSS: For styling the components.
-API: Fetches data from NHTSA API for vehicle makes and models.
-Project Structure
-pages/: Contains the main pages of the application.
-filter.tsx: The main filter page where users can select vehicle make, model, and type.
-result/[makeId]/[model].tsx: Displays the results based on the user’s selections.
-layout.tsx: Root layout with the Navbar and Footer.
-components/: Contains reusable components.
-Dropdown.tsx: Dropdown component used for selecting vehicle make and model.
-Navbar.tsx: Navigation bar with links to different pages.
-Footer.tsx: Footer section with links and copyrights.
-Features
-Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.
-Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.
-Responsive Design: Uses Tailwind CSS to ensure the application looks good on all devices.
+* Table of Contents
+* Technologies Used
+* Project Structure
+* Features
+* Getting Started
+* Components Explanation
+* Usage</br>
+<h2>Technologies Used</h2>
+* Next.js: Framework used for building the web application.
+* React: JavaScript library used for building user interfaces.
+* TypeScript: For type safety and improved code quality.
+* Tailwind CSS: For styling the components.
+* API: Fetches data from NHTSA API for vehicle makes and models.
+</br>
+<h2>Project Structure</h2>
+* pages/: Contains the main pages of the application.
+    filter.tsx: The main filter page where users can select vehicle make, model, and type.
+    result/[makeId]/[model].tsx: Displays the results based on the user’s selections.
+    layout.tsx: Root layout with the Navbar and Footer.
+* components/: Contains reusable components.
+    Dropdown.tsx: Dropdown component used for selecting vehicle make and model.
+    Navbar.tsx: Navigation bar with links to different pages.
+    Footer.tsx: Footer section with links and copyrights.</br>
+<h2>Features</h2>
+* Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.
+* Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.
+* Responsive Design: Uses Tailwind CSS to ensure the application looks good on all devices.
 
 Components Explanation
 1. ResultPage.tsx
