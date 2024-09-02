@@ -32,8 +32,8 @@
 
 <h2>Components Explanation</h2>
 1. ResultPage.tsx
-Displays the filtered results based on the user’s selected vehicle make and model. It uses state management to handle the displayed data.<br>
-
+Displays the filtered results based on the user’s selected vehicle make and model. It uses state management to handle the displayed data.
+<br>
 2. FilterPage.tsx
 This page allows users to select vehicle make and model from dropdowns. It fetches data from external APIs and dynamically updates the options based on user selections. The "Next" button routes users to the results page.
 <br>
@@ -44,7 +44,7 @@ Reusable dropdown component that renders a list of options and handles selection
 Navbar: Provides navigation links to the Home, Filter, and About pages.
 Footer: Contains company information and additional links like Privacy Policy and Contact Us.<br>
 <h2>Usage</h2>
- * Navigate to the Filter page from the Navbar.
- * Use the dropdown menus to select a vehicle make, model, and type.
- * Click the Next button to view the results based on your selections.
+ * Navigate to the Filter page from the Navbar.<br>
+ * Use the dropdown menus to select a vehicle make, model, and type.<br>
+ * Click the Next button to view the results based on your selections.<br>
  * The results page will display cars matching the selected criteria.
