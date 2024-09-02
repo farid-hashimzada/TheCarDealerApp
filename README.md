@@ -9,11 +9,11 @@
 * Getting Started
 * Components Explanation
 * Usage<br>
-<h2>Technologies Used</h2>
-* Next.js: Framework used for building the web application.
-* React: JavaScript library used for building user interfaces.
-* TypeScript: For type safety and improved code quality.
-* Tailwind CSS: For styling the components.
+<h2>Technologies Used</h2><br>
+* Next.js: Framework used for building the web application.<br>
+* React: JavaScript library used for building user interfaces.<br>
+* TypeScript: For type safety and improved code quality.<br>
+* Tailwind CSS: For styling the components.<br>
 * API: Fetches data from NHTSA API for vehicle makes and models.
 <br>
 <h2>Project Structure</h2>
