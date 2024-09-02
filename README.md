@@ -20,11 +20,11 @@
 * pages/: Contains the main pages of the application.<br>
    &nbsp;# filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
    &nbsp;# result/[makeId]/[model].tsx: Displays the results based on the user’s selections.<br>
-   &nbsp;# layout.tsx: Root layout with the Navbar and Footer.<br>
+   &nbsp;# layout.tsx: Root layout with the Navbar and Footer.<br><br>
 * components/: Contains reusable components.
    &nbsp;# Dropdown.tsx: Dropdown component used for selecting vehicle make and model.<br>
    &nbsp;# Navbar.tsx: Navigation bar with links to different pages.<br>
-   &nbsp;# Footer.tsx: Footer section with links and copyrights.<br>
+   &nbsp;# Footer.tsx: Footer section with links and copyrights.<br><br>
 <h2>Features</h2>
 * Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.<br>
 * Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.<br>
@@ -33,16 +33,16 @@
 <h2>Components Explanation</h2>
 1. ResultPage.tsx
 Displays the filtered results based on the user’s selected vehicle make and model. It uses state management to handle the displayed data.
-<br>
+<br><br>
 2. FilterPage.tsx
 This page allows users to select vehicle make and model from dropdowns. It fetches data from external APIs and dynamically updates the options based on user selections. The "Next" button routes users to the results page.
-<br>
+<br><br>
 3. Dropdown.tsx
 Reusable dropdown component that renders a list of options and handles selection changes.
-<br>
+<br><br>
 4. Navbar.tsx & Footer.tsx
 Navbar: Provides navigation links to the Home, Filter, and About pages.
-Footer: Contains company information and additional links like Privacy Policy and Contact Us.<br>
+Footer: Contains company information and additional links like Privacy Policy and Contact Us.<br><br>
 <h2>Usage</h2>
  * Navigate to the Filter page from the Navbar.<br>
  * Use the dropdown menus to select a vehicle make, model, and type.<br>
