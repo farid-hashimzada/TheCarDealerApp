@@ -17,18 +17,18 @@
 * API: Fetches data from NHTSA API for vehicle makes and models.
 <br>
 <h2>Project Structure</h2>
-* pages/: Contains the main pages of the application.
-    filter.tsx: The main filter page where users can select vehicle make, model, and type.
-    result/[makeId]/[model].tsx: Displays the results based on the user’s selections.
-    layout.tsx: Root layout with the Navbar and Footer.
+* pages/: Contains the main pages of the application.<br>
+    filter.tsx: The main filter page where users can select vehicle make, model, and type.<br>
+    result/[makeId]/[model].tsx: Displays the results based on the user’s selections.<br>
+    layout.tsx: Root layout with the Navbar and Footer.<br>
 * components/: Contains reusable components.
-    Dropdown.tsx: Dropdown component used for selecting vehicle make and model.
-    Navbar.tsx: Navigation bar with links to different pages.
+    Dropdown.tsx: Dropdown component used for selecting vehicle make and model.<br>
+    Navbar.tsx: Navigation bar with links to different pages.<br>
     Footer.tsx: Footer section with links and copyrights.<br>
 <h2>Features</h2>
-* Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.
-* Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.
-* Responsive Design: Uses Tailwind CSS to ensure the application looks good on all devices.
+* Filter Vehicles: Users can filter vehicles by selecting a make, model, and type from dropdown menus.<br>
+* Dynamic Routing: Selected values navigate users to the results page, showing details based on their choices.<br>
+* Responsive Design: Uses Tailwind CSS to ensure the application looks good on all devices.<br>
 
 <h2>Components Explanation</h2>
 1. ResultPage.tsx
